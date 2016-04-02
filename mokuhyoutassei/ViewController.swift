@@ -9,6 +9,14 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBAction func hensati () {
+        
+    }
+    
+    @IBAction func kennsaku () {
+        
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
