@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CFC897DFC36DACCBE3527F3 /* Pods_mokuhyoutassei.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97C27C195A9251C85528B8AA /* Pods_mokuhyoutassei.framework */; };
 		A12F3DFF1CAF9CD60055DA42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12F3DFE1CAF9CD60055DA42 /* AppDelegate.swift */; };
 		A12F3E011CAF9CD60055DA42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12F3E001CAF9CD60055DA42 /* ViewController.swift */; };
 		A12F3E041CAF9CD60055DA42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12F3E021CAF9CD60055DA42 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		A12F3E091CAF9CD60055DA42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12F3E071CAF9CD60055DA42 /* LaunchScreen.storyboard */; };
 		A12F3E141CAF9CD60055DA42 /* mokuhyoutasseiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12F3E131CAF9CD60055DA42 /* mokuhyoutasseiTests.swift */; };
 		A12F3E1F1CAF9CD70055DA42 /* mokuhyoutasseiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12F3E1E1CAF9CD70055DA42 /* mokuhyoutasseiUITests.swift */; };
+		A1BE53A41CB00DDE009B3745 /* mirai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1BE53A31CB00DDE009B3745 /* mirai.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		059A30D935757EBDA19E61EC /* Pods-mokuhyoutassei.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mokuhyoutassei.release.xcconfig"; path = "Pods/Target Support Files/Pods-mokuhyoutassei/Pods-mokuhyoutassei.release.xcconfig"; sourceTree = "<group>"; };
+		97C27C195A9251C85528B8AA /* Pods_mokuhyoutassei.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mokuhyoutassei.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97F0282BF594C4F0ADA26CA4 /* Pods-mokuhyoutassei.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mokuhyoutassei.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mokuhyoutassei/Pods-mokuhyoutassei.debug.xcconfig"; sourceTree = "<group>"; };
 		A12F3DFB1CAF9CD60055DA42 /* mokuhyoutassei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mokuhyoutassei.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A12F3DFE1CAF9CD60055DA42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A12F3E001CAF9CD60055DA42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,7 @@
 		A12F3E1A1CAF9CD60055DA42 /* mokuhyoutasseiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mokuhyoutasseiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A12F3E1E1CAF9CD70055DA42 /* mokuhyoutasseiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mokuhyoutasseiUITests.swift; sourceTree = "<group>"; };
 		A12F3E201CAF9CD70055DA42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1BE53A31CB00DDE009B3745 /* mirai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mirai.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CFC897DFC36DACCBE3527F3 /* Pods_mokuhyoutassei.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +81,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B5799B3A9F29EBB506E598F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97F0282BF594C4F0ADA26CA4 /* Pods-mokuhyoutassei.debug.xcconfig */,
+				059A30D935757EBDA19E61EC /* Pods-mokuhyoutassei.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8D12F42A68E9FF21A30C88AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97C27C195A9251C85528B8AA /* Pods_mokuhyoutassei.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A12F3DF21CAF9CD60055DA42 = {
 			isa = PBXGroup;
 			children = (
+				A1BE53A31CB00DDE009B3745 /* mirai.jpg */,
 				A12F3DFD1CAF9CD60055DA42 /* mokuhyoutassei */,
 				A12F3E121CAF9CD60055DA42 /* mokuhyoutasseiTests */,
 				A12F3E1D1CAF9CD70055DA42 /* mokuhyoutasseiUITests */,
 				A12F3DFC1CAF9CD60055DA42 /* Products */,
+				7B5799B3A9F29EBB506E598F /* Pods */,
+				8D12F42A68E9FF21A30C88AC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A12F3E231CAF9CD70055DA42 /* Build configuration list for PBXNativeTarget "mokuhyoutassei" */;
 			buildPhases = (
+				48665BE6EA71F4B898416441 /* Check Pods Manifest.lock */,
 				A12F3DF71CAF9CD60055DA42 /* Sources */,
 				A12F3DF81CAF9CD60055DA42 /* Frameworks */,
 				A12F3DF91CAF9CD60055DA42 /* Resources */,
+				CB255F82D493F732E67D40B6 /* Embed Pods Frameworks */,
+				2FD9E6D53536B187E4E5F1AA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,6 +264,7 @@
 			files = (
 				A12F3E091CAF9CD60055DA42 /* LaunchScreen.storyboard in Resources */,
 				A12F3E061CAF9CD60055DA42 /* Assets.xcassets in Resources */,
+				A1BE53A41CB00DDE009B3745 /* mirai.jpg in Resources */,
 				A12F3E041CAF9CD60055DA42 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +284,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FD9E6D53536B187E4E5F1AA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mokuhyoutassei/Pods-mokuhyoutassei-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48665BE6EA71F4B898416441 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CB255F82D493F732E67D40B6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mokuhyoutassei/Pods-mokuhyoutassei-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A12F3DF71CAF9CD60055DA42 /* Sources */ = {
@@ -398,6 +477,7 @@
 		};
 		A12F3E241CAF9CD70055DA42 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97F0282BF594C4F0ADA26CA4 /* Pods-mokuhyoutassei.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = mokuhyoutassei/Info.plist;
@@ -409,6 +489,7 @@
 		};
 		A12F3E251CAF9CD70055DA42 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 059A30D935757EBDA19E61EC /* Pods-mokuhyoutassei.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = mokuhyoutassei/Info.plist;
@@ -485,6 +566,7 @@
 				A12F3E251CAF9CD70055DA42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A12F3E261CAF9CD70055DA42 /* Build configuration list for PBXNativeTarget "mokuhyoutasseiTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +575,7 @@
 				A12F3E281CAF9CD70055DA42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A12F3E291CAF9CD70055DA42 /* Build configuration list for PBXNativeTarget "mokuhyoutasseiUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +584,7 @@
 				A12F3E2B1CAF9CD70055DA42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
